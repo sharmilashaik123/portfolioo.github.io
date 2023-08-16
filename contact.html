@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>contact me</title>
+    <link rel="icon" href="call.png">
+    <style>
+        span::before{
+            content: " *";
+            color: red;
+            font-size: 12px;
+        }
+        
+    </style>
+</head>
+<body background="u.jpg" style="background-repeat: no-repeat;background-size: 100% 100%;">
+    <center>        
+     <u><h1>CONTACTING FORM</h1></u>
+     <br>
+     <font size="5">
+    <form action="message.html">
+            <table>
+            <tr><td><label for="fname" class="required"> First Name:</label></td><td><input type="text" id="fname" name="fname" required placeholder="ex:Rahul" size="30"><span class="required"></span></td></tr>
+            <tr><td><label for="lname" class="required">Last Name:</label></td><td><input type="text" id="lname" name="lname" required size="30" ><span class="required"></span></td></tr>
+            <tr><td><label for="pnum" class="required">Phone Number:</label></td><td><input type="phone number" id="pnum" name="pnum" required placeholder="ex:9876543210" size="30"><span class="required"></span></td></tr>
+            <tr><td><label for="email"class="required">Email:</label></td><td><input type="email" id="email" name="email" required placeholder="rahul@gmail.com" size="30"><span class="required"></span></td></tr>
+            <tr><td><label for="gender">Gender:</label></td><td>
+                <input type="radio" id="gender" name="gender">male
+                <input type="radio" id="gender" name="gender">female
+                <input type="radio" id="gender" name="gender">custom
+            </td></tr>
+            <tr><td><label for="date">Date Of Birth:</label></td><td><input type="date" required id="date" name="date"></td></tr>
+            <tr><td><label>Country:</label></td><td><select>
+                <option>INDIA</option>
+                <option>USA</option>
+                <option>CHINA</option>
+                </select>
+            </td></tr>
+            <tr><td><label>Year Of Pass:</label></td><td>
+                <select>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </select>
+            </td></tr>
+            <tr><td><label>Skills Required For The Company:</label></td><td>
+                <input type="checkbox" id="check" name="s1">Java
+                <input type="checkbox" id="check" name="s1">Html
+                <input type="checkbox" id="check" name="s1">Sql
+                <input type="checkbox" id="check" name="s1">Python
+            </td></tr>
+            </table>
+            <br>
+            <label>Reason for contacting:</label><br>
+            <textarea rows="9" cols="100" required></textarea><br>
+            <input type="submit">
+    </form>
+    </font>
+   </center><br>
+   <font size="5">
+   <center><a href="ce.html"> Previous </a></center>
+   </font>
+    
+</body>
+</html>
